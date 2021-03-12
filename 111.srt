@@ -1,0 +1,199 @@
+1
+00:00:00,256 --> 00:00:03,072
+ In terms of autonomous control, we have a set of operators who are interested in.
+
+2
+00:00:03,584 --> 00:00:07,680
+ Why certain actions are being taken by, in this case, this autonomous vehicle?
+
+3
+00:00:07,936 --> 00:00:10,240
+ In some cases, the vehicle might be within sight.
+
+4
+00:00:10,496 --> 00:00:15,360
+ In other cases, the vehicle might be out of sight, meaning that the vehicle might have access to some situation Information.
+
+5
+00:00:15,872 --> 00:00:17,408
+ That they can't even see at that point in time.
+
+6
+00:00:18,432 --> 00:00:23,040
+ So when they want to interrogate this, they may want to do so in a post hoc situations such as after.
+
+7
+00:00:23,296 --> 00:00:26,624
+ After action analysis, or maybe even during the time period in which.
+
+8
+00:00:27,136 --> 00:00:27,648
+ The vehicle.
+
+9
+00:00:27,904 --> 00:00:28,416
+ Is up.
+
+10
+00:00:28,672 --> 00:00:29,440
+ Performing on a mission.
+
+11
+00:00:30,208 --> 00:00:33,024
+ So you can see, in both cases, explanations are critical to these users.
+
+12
+00:00:35,584 --> 00:00:39,680
+ So where the x e I program is all about is to address this fundamental trade off.
+
+13
+00:00:39,936 --> 00:00:41,472
+ For performance versus explain ability.
+
+14
+00:00:42,496 --> 00:00:44,544
+ You may be very familiar with by now.
+
+15
+00:00:44,800 --> 00:00:45,568
+ The uh.
+
+16
+00:00:45,824 --> 00:00:49,152
+ Advent of deep learning and how it's impacted this trade off.
+
+17
+00:00:49,664 --> 00:00:52,736
+ In particular, for certain types of applications, those in which.
+
+18
+00:00:53,248 --> 00:00:55,040
+ Uh, we're working with raw sensory data.
+
+19
+00:00:55,552 --> 00:00:59,136
+ Deep learning applications have been shown to be able to greatly increase learning performance.
+
+20
+00:00:59,904 --> 00:01:04,256
+ But there has often been the case that it's been in the sacrifice of explain ability.
+
+21
+00:01:04,768 --> 00:01:05,792
+ There's some notion of form.
+
+22
+00:01:07,072 --> 00:01:07,840
+ X AI.
+
+23
+00:01:08,352 --> 00:01:12,448
+ Is instead focused on the task of being able to increase explain ability.
+
+24
+00:01:12,704 --> 00:01:14,496
+ Without sacrificing learning from.
+
+25
+00:01:14,752 --> 00:01:15,264
+ Performance.
+
+26
+00:01:15,520 --> 00:01:17,824
+ So we're trying to go to the Top right hand side of that.
+
+27
+00:01:18,336 --> 00:01:19,872
+ Curly cues me that my graph that.
+
+28
+00:01:20,640 --> 00:01:21,664
+ The graph that you see there.
+
+29
+00:01:22,944 --> 00:01:26,528
+ Uh, in doing so, the goal is to be able to create a new generation.
+
+30
+00:01:26,784 --> 00:01:29,600
+ Of AI systems that are machine learning and able.
+
+31
+00:01:30,368 --> 00:01:36,512
+ In which users can understand uh, the uh, learned models understand why these predictions being generated.
+
+32
+00:01:37,280 --> 00:01:39,328
+ Uh, understand when they can trust the model.
+
+33
+00:01:40,096 --> 00:01:43,168
+ And be able to work with it effectively to manage it in upcoming.
+
+34
+00:01:43,424 --> 00:01:44,448
+ Critical applications.
+
+35
+00:01:45,984 --> 00:01:48,288
+ So that's a quick introduction to the x AI program.
+
+36
+00:01:48,544 --> 00:01:49,568
+ What are we doing next?
+
+37
+00:01:49,824 --> 00:01:52,128
+ Instead highlighting six contributions to the.
+
+38
+00:01:52,384 --> 00:01:52,896
+ To the program.
+
+39
+00:01:53,408 --> 00:01:55,968
+ The first three pertain to data analytics. And the latter three will be.
+
+40
+00:01:56,224 --> 00:01:56,736
+ Pertaining to.
+
+41
+00:01:56,992 --> 00:01:58,016
+ Autonomous control.
+
+42
+00:01:59,808 --> 00:02:03,136
+ So the first one here pertains to a method that's called rise. This is.
+
+43
+00:02:03,648 --> 00:02:06,976
+ Developed by the boston university sub team of uc berkeley.
+
+44
+00:02:08,000 --> 00:02:11,072
+ So rise or um, randomize, uh.
+
+45
+00:02:11,840 --> 00:02:14,400
+ Keep forgetting. Right? Randomized input sampling for explanations.
+
+46
+00:02:15,168 --> 00:02:17,984
+ Is focused on the first of those questions that you were looking at before.
+
+47
+00:02:18,240 --> 00:02:19,520
+ Why did you give me this prediction?
+
+48
+00:02:20,032 --> 00:02:24,896
+ So here we see a surprising prediction. It's saying from this aerial imagery. And what we're looking at.
+
+49
+00:02:25,408 --> 00:02:28,480
+ It appears to be a shopping mall. Instead predicting that a solar farm.
+
+50
+00:02:28,736 --> 00:02:30,784
+ Which begs the question as to why?
