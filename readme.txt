@@ -1,3 +1,1 @@
-ÓïÒôÌýÐ´Á÷Ê½ ÒôÆµÑùÀý ÖÐÎÄÆÕÍ¨»° SPEEXÎÄ¼þ£¨±ê×¼¿ªÔ´SPEEX±àÂë£©²ÉÑùÂÊ16k 7¼¶Ñ¹Ëõ
-¿É²Î¿¼:https://www.xfyun.cn/doc/asr/voicedictation/Audio.html
-ÒôÆµÄÚÈÝ£ºÕâÊÇÒ»Ìõ²âÊÔÒôÆµ
+ç§‘å¤§è®¯é£žè¯­éŸ³è¯†åˆ«demoï¼Œå¹¶å‘è¯·æ±‚ã€‚
